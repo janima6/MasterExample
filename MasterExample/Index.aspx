@@ -7,7 +7,7 @@
 
     <link href="css/indexCss.css" rel="stylesheet" />
     <script src="JS/JavaScript.js"></script>
-    <title></title>
+    <title>Index LMS</title>
 </head>
 <body >
    
@@ -26,7 +26,7 @@
        
         <br />
          <br />
-        <input class="button2" type="image" src="Images/Libra.png" alt="Submit" width="200" height="56"/>
+        <input class="button2" type="image" src="Images/Libra.png" alt="Submit" width="200" height="56" onclick="openLibrarianMain()"/>
         <br />
          <br />
         <input class="button2" type="image" src="Images/Member.png" alt="Submit" width="200" height="56"/>

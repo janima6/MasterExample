@@ -73,6 +73,7 @@
     </Content>
     <Content Include="css\AdmiStyles.css" />
     <Content Include="css\indexCss.css" />
+    <Content Include="css\LibStyles.css" />
     <Content Include="css\masterStyle.css" />
     <Content Include="Global.asax" />
     <Content Include="Images\Admin.png" />
@@ -82,8 +83,14 @@
     <Content Include="Index.aspx" />
     <None Include="Resources\Admin.png" />
     <Content Include="JS\JavaScript.js" />
+    <Content Include="libExtensionRequest.aspx" />
+    <Content Include="libFinePayment.aspx" />
+    <Content Include="libGenerateReport.aspx" />
+    <Content Include="libIssueBook.aspx" />
+    <Content Include="LibLandingPage.aspx" />
+    <Content Include="libReturnBook.aspx" />
+    <Content Include="libSearchBook.aspx" />
     <Content Include="Web.config" />
-    <Content Include="WebForm1.aspx" />
     <Content Include="adminLandingPage.aspx" />
     <Content Include="BookManagement.aspx" />
     <Content Include="LibManagement.aspx" />
@@ -103,6 +110,55 @@
     <Compile Include="Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="libExtensionRequest.aspx.cs">
+      <DependentUpon>libExtensionRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="libExtensionRequest.aspx.designer.cs">
+      <DependentUpon>libExtensionRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="libFinePayment.aspx.cs">
+      <DependentUpon>libFinePayment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="libFinePayment.aspx.designer.cs">
+      <DependentUpon>libFinePayment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="libGenerateReport.aspx.cs">
+      <DependentUpon>libGenerateReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="libGenerateReport.aspx.designer.cs">
+      <DependentUpon>libGenerateReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="libIssueBook.aspx.cs">
+      <DependentUpon>libIssueBook.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="libIssueBook.aspx.designer.cs">
+      <DependentUpon>libIssueBook.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LibLandingPage.aspx.cs">
+      <DependentUpon>LibLandingPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LibLandingPage.aspx.designer.cs">
+      <DependentUpon>LibLandingPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="libReturnBook.aspx.cs">
+      <DependentUpon>libReturnBook.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="libReturnBook.aspx.designer.cs">
+      <DependentUpon>libReturnBook.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="libSearchBook.aspx.cs">
+      <DependentUpon>libSearchBook.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="libSearchBook.aspx.designer.cs">
+      <DependentUpon>libSearchBook.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -115,13 +171,6 @@
     </Compile>
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
-    </Compile>
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
     <Compile Include="adminLandingPage.aspx.cs">
       <DependentUpon>adminLandingPage.aspx</DependentUpon>

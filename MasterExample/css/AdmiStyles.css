@@ -32,11 +32,16 @@ aside {
 }
 
 .centerLibMgmt {
-    margin-left: 440px;
+    padding-left:1000px;
     float: left;
 }
 
 .centerBoobMgmt {
     margin-left: 410px;
+    float: left;
+}
+
+.centerButton {
+    padding-left: 1000px;
     float: left;
 }

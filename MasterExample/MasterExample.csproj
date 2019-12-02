@@ -67,9 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\Books.mdf" />
-    <Content Include="App_Data\Books_log.ldf">
-      <DependentUpon>Books.mdf</DependentUpon>
+    <Content Include="App_Data\library %281%29.mdf" />
+    <Content Include="App_Data\library %281%29_log.ldf">
+      <DependentUpon>library %281%29.mdf</DependentUpon>
     </Content>
     <Content Include="css\AdmiStyles.css" />
     <Content Include="css\indexCss.css" />

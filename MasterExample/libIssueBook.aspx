@@ -14,34 +14,28 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <p>
         &nbsp;<br />
-        Member ID :
-        <asp:TextBox ID="TextBox1" runat="server" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
     </p>
     <p>
-        Member Name :
-        <asp:TextBox ID="TextBox2" runat="server" OnTextChanged="TextBox2_TextChanged"></asp:TextBox>
-    </p>
+        Issue Requests</p>
     <p>
-        Book ID :
-        <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
-    </p>
+        &nbsp;</p>
     <p>
-        Book Title :
-        <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
-    </p>
-    <p>
-        Search the availibility :
-        <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
-    </p>
-    <p>
-        Search by :
-        <asp:DropDownList ID="DropDownList1" runat="server">
-            <asp:ListItem>Select</asp:ListItem>
-            <asp:ListItem>By title</asp:ListItem>
-            <asp:ListItem>By author</asp:ListItem>
-            <asp:ListItem>By ID</asp:ListItem>
-            <asp:ListItem>By Publisher</asp:ListItem>
-        </asp:DropDownList>
+        <asp:GridView ID="GridView1" runat="server" CellPadding="4" ForeColor="#333333" GridLines="None">
+            <AlternatingRowStyle BackColor="White" />
+            <Columns>
+                <asp:CheckBoxField />
+            </Columns>
+            <EditRowStyle BackColor="#7C6F57" />
+            <FooterStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
+            <HeaderStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
+            <PagerStyle BackColor="#666666" ForeColor="White" HorizontalAlign="Center" />
+            <RowStyle BackColor="#E3EAEB" />
+            <SelectedRowStyle BackColor="#C5BBAF" Font-Bold="True" ForeColor="#333333" />
+            <SortedAscendingCellStyle BackColor="#F8FAFA" />
+            <SortedAscendingHeaderStyle BackColor="#246B61" />
+            <SortedDescendingCellStyle BackColor="#D4DFE1" />
+            <SortedDescendingHeaderStyle BackColor="#15524A" />
+        </asp:GridView>
     </p>
     <p>
         Issue Date :

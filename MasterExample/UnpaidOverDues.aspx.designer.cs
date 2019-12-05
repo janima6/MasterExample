@@ -7,63 +7,65 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MasterExample {
-    
-    
-    public partial class Index {
-        
+namespace LibraryManagementSystem
+{
+
+
+    public partial class UnpaidOverDues
+    {
+
         /// <summary>
-        /// form1 control.
+        /// btnSearchBook control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
+        protected global::System.Web.UI.WebControls.Button btnSearchBook;
+
         /// <summary>
-        /// txtUserName control.
+        /// btnIssueBook0 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtUserName;
-        
+        protected global::System.Web.UI.WebControls.Button btnIssueBook0;
+
         /// <summary>
-        /// txtPassword control.
+        /// btnReturnBook0 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPassword;
-        
+        protected global::System.Web.UI.WebControls.Button btnReturnBook0;
+
         /// <summary>
-        /// btnLogin control.
+        /// btnHistory0 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnLogin;
-        
+        protected global::System.Web.UI.WebControls.Button btnHistory0;
+
         /// <summary>
-        /// chkRememberMe control.
+        /// btnMyAccount0 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox chkRememberMe;
-        
+        protected global::System.Web.UI.WebControls.Button btnMyAccount0;
+
         /// <summary>
-        /// lblMessage control.
+        /// btnLogout control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblMessage;
+        protected global::System.Web.UI.WebControls.Button btnLogout;
     }
 }

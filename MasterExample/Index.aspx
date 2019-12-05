@@ -11,6 +11,8 @@
 </head>
 <body >
    
+        <form id="form1" runat="server">
+   
         <div class="container">
     <p>
      Welcome to 
@@ -22,17 +24,22 @@
         Get in as:
         <br />
         <br />
-             <input class="button2" type="image" src="Images/Admin.png" alt="Submit" width="200" height="56" onclick="myFunction()" />
-       
-        <br />
+             &nbsp;<br />
          <br />
-        <input class="button2" type="image" src="Images/Libra.png" alt="Submit" width="200" height="56" onclick="openLibrarianMain()"/>
+        UserName:
+        <asp:TextBox ID="txtUserName" runat="server"></asp:TextBox>
+    <br />
+                Password:
+                <asp:TextBox ID="txtPassword" runat="server"></asp:TextBox>
+    <br />
+                <asp:Button ID="btnLogin" runat="server" Text="Login" OnClick="btnLogin_Click" />
         <br />
+        <asp:CheckBox ID="chkRememberMe" runat="server" />
          <br />
-        <input class="button2" type="image" src="Images/Member.png" alt="Submit" width="200" height="56"/>
-    </p>
-           
+        <asp:Label ID="lblMessage" runat="server" Text="Label"></asp:Label>
 </div>
+    
+        </form>
     
 </body>
 </html>
